@@ -1,1 +1,1 @@
-Ala ma kota
+export default  x = 'aaaa'
