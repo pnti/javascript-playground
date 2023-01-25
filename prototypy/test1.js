@@ -6,6 +6,7 @@ function Osoba () {
 const osoba = new Osoba()
 
 // Tutaj jest wyraźna różnica
+
 // W przypadku funcji anonimowej można użyć this
 // W przypadku strzałkowej już nie (i nie wiem, co w takim przypadku)
 
@@ -14,3 +15,5 @@ const osoba = new Osoba()
 Osoba.prototype.hello = () => console.log('Hello ' + osoba.imie)
 
 osoba.helo()
+
+// Generalnie wygląda jednak na to, że są dwie metody deklarowania metod w Javascipcie.
